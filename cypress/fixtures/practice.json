@@ -1,0 +1,112 @@
+{
+    "test1":
+    {
+    "username": "Teast",
+    "email": "temporary@hotmail.com",
+    "password":"testpassword",
+    "birthday":{
+        "day":6,
+        "month":5,
+        "year":1994
+    },
+    "firstname": "John",
+    "gender":"Female",
+    "title": "Mrs",
+    "middlename":"Tester",
+    "lastname":"Doe",
+    "company": "TestingUnited",
+    "address1": "evergreen 123",
+    "address2": "none",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Miami",
+    "zipcode": "33101",
+    "mobile":"+5455555555"
+ },
+
+
+   "testcard":{
+      "name": "test",
+      "number":"12345132",
+      "cvc": "123",
+      "expirationMonth":"02",
+      "expirationYear":"2030"
+   },
+
+    "permanentaccount":
+ {
+    "username":"permanent",
+    "email": "permanent@hotmail.com",
+    "password":"testpassword"
+ },
+
+    
+   "categories": {
+
+        "women": {
+         "name": "Women",
+         "subcategory":{
+            "dress": {
+               "name": "Dress",
+               "ID": "1"
+               },
+            "tops":{
+               "name": "Tops",
+               "ID": "2"
+               },
+            "saree": {
+               "name": "Saree",
+               "ID": "7"
+               }
+         }
+      },
+         "men": {
+         "name": "Men",
+         "subcategory":{
+            "tshirts": {
+               "name": "Tshirts",
+               "ID": "3"
+               },
+            "jeans":{
+               "name": "Jeans",
+               "ID": "6"
+               }
+         }
+      },
+      
+         "kids": {
+         "name": "Kids",
+         "subcategory":{
+            "dress": {
+               "name": "Dress",
+               "ID": "4"
+               },
+            "Tops_Shirts ":{
+               "name": "Tops & Shirts",
+               "ID": "5"
+               }
+         }
+        
+      }
+   },
+
+
+   "brands": [
+    "Polo",
+    "H&M",
+    "Madame",
+    "Mast & Harbour",
+    "Babyhug",
+    "Allen Solly Junior",
+    "Kookie Kids",
+    "Biba"
+  ],
+
+
+   "products":{ 
+      "product1": "blue",
+      "product2": "shirt",
+      "product3": "jeans"
+}
+}
+   
