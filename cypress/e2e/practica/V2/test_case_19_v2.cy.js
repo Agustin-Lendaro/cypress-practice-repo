@@ -1,14 +1,8 @@
 import { products } from "../../../support/pages/products"
 import { util } from "../../../support/utilities"
-
-let globalData
-
-
 before('Load Fixture', () => {
   cy.fixture('practice').as('fixtureData') // alias the fixture as @fixtureData
 })
-
- 
 
 describe(" View & Cart Brand Products", () => {
         
