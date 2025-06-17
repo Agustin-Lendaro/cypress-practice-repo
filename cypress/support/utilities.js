@@ -8,5 +8,15 @@ export class Util {
         }
         return result + '@gmail.com';
     }
+
+    getRandomBrand(brands) {
+        const randomIndex = Math.floor(Math.random() * brands.length)
+        return brands[randomIndex]
+    }
+    //excluye marca anterior
+    getRandomBrandExcluding(brands, excludedBrand) {
+      const filteredBrands = brands.filter(brand => brand !== excludedBrand)
+      return util.getRandomBrand(filteredBrands)
+    }
 }
 export const util = new Util()
